@@ -11,13 +11,13 @@ public class Beginner {
 
         int temperature = 20; // Example temperature
         if (temperature > 30) {
-            System.out.println("It's a hot day! ☀️");
+            System.out.println("It's a hot day!");
         } else if (temperature > 20) { // Will check this if (temperature > 30) is false
-            System.out.println("It's a nice warm day. 😊");
+            System.out.println("It's a nice warm day.");
         } else if (temperature > 10) { // Will check this if previous are false
-            System.out.println("It's a bit chilly. 🧣");
+            System.out.println("It's a bit chilly.");
         } else { // Will execute if all above conditions are false
-            System.out.println("It's cold! 🥶");
+            System.out.println("It's cold!");
         }
 
         // Another example using your 'uniYear' variable
@@ -27,9 +27,9 @@ public class Beginner {
         } else if (currentUniYear == 2) {
             System.out.println("You're a sophomore!");
         } else if (currentUniYear == 3) {
-            System.out.println("You're a junior! Getting serious now! 🚀");
+            System.out.println("You're a junior! Getting serious now!");
         } else if (currentUniYear == 4) {
-            System.out.println("You're a senior! Almost there! 🎉");
+            System.out.println("You're a senior! Almost there!");
         } else {
             System.out.println("Invalid university year.");
         }
@@ -43,7 +43,7 @@ public class Beginner {
         } else if (hasGoodGrades || attendedLectures) {
             System.out.println("Good effort, keep it up!");
         } else {
-            System.out.println("Might need to review your study habits. 🤔");
+            System.out.println("L student");
         }
         
         System.out.println("\n--- Switch statements ---");
